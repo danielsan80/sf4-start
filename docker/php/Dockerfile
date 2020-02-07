@@ -113,7 +113,7 @@ RUN echo '. ~/.bash_aliases' >> /home/user/.bashrc
 
 RUN chown -R user:user /home/user
 
-WORKDIR /var/www/project
+WORKDIR /var/www/project/backend
 
 #EXPOSE 9000
 

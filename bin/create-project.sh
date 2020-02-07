@@ -1,0 +1,1 @@
+composer create-project symfony/website-skeleton:^4.4 project
