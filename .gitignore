@@ -2,4 +2,8 @@
 /.env
 
 
+
+/backend/**
+!/backend/**/
+
 !.gitkeep
