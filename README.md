@@ -8,7 +8,7 @@ Nella root `/` è presente ciò che serve per avviare i container Docker a suppo
 
 Nella cartella `/backend` invece verrà creato il progetto Symfony.
 
-L'obiettivo è quello di fornire uno strumento di supporto chi approccia Symfony (e magari Php)
+L'obiettivo è quello di fornire uno strumento di supporto a chi approccia Symfony (e magari Php)
 per la prima volta, senza doversi preoccupare troppo di configurare l'ambiente.
 
 
