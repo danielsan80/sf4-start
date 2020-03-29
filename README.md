@@ -54,7 +54,7 @@ ed entrarci con
 al container ci si possa connettere via ssh con i server di stage e produzione identificandosi con le proprie chiavi.
 Questo potrebbe non essere gradito se non se ne comprende le ragioni.
 
-Ci troveremo dento il container nella cartella `/var/www/project/backend`.
+Ci troveremo dentro il container nella cartella `/var/www/project/backend`.
 
 Usciamo da `backend` e lanciamo `bin/create-project.sh` che non fa altro che creare il projetto Symfony 4.4
 nella cartella `backend`.
