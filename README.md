@@ -76,7 +76,21 @@ Vedremo la consueta lista dei comandi disponibili.
 
 Proviamo ad accedere dal browser impostando l'indirizzo `http://127.0.0.42` oppure `http://the-answer`.
 
-Dovremmo vedere la consueta Welcome page di Symfony. 
+Dovremmo vedere la consueta Welcome page di Symfony.
+
+
+Per la connessione al database è bene ricordare che stiamo utilizzando un container.
+Questo container è stato chiamato `db` nel file `/docker-composer.yml`,
+lo user name di default del container è `root`
+e per la password scelta nel `/.env.dist` (che può essere cambiata nel `.env`) è `root`.
+Il nome del db è discrezionale.
+
+Quindi la variabile d'ambiente in `/backend/.env` va modificata così:
+```
+DATABASE_URL=mysql://root:root@db:3306/db_name?serverVersion=5.7
+```
+
+
 
 
 ### Un nuovo repository

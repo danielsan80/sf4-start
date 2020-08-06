@@ -36,7 +36,7 @@ services:
 
   db:
     image: mysql:5.7
-    restart: always
+    restart: "no"
     command: mysqld --sql_mode=""
     volumes:
       - db_volume:/var/lib/mysql
