@@ -8,7 +8,7 @@ Nella root `/` è presente ciò che serve per avviare i container Docker a suppo
 
 Nella cartella `/backend` invece verrà creato il progetto Symfony.
 
-L'obiettivo è quello di fornire uno strumento di supporto chi approccia Symfony (e magari Php)
+L'obiettivo è quello di fornire uno strumento di supporto a chi approccia Symfony (e magari Php)
 per la prima volta, senza doversi preoccupare troppo di configurare l'ambiente.
 
 
@@ -54,7 +54,7 @@ ed entrarci con
 al container ci si possa connettere via ssh con i server di stage e produzione identificandosi con le proprie chiavi.
 Questo potrebbe non essere gradito se non se ne comprende le ragioni.
 
-Ci troveremo dento il container nella cartella `/var/www/project/backend`.
+Ci troveremo dentro il container nella cartella `/var/www/project/backend`.
 
 Usciamo da `backend` e lanciamo `bin/create-project.sh` che non fa altro che creare il projetto Symfony 4.4
 nella cartella `backend`.
