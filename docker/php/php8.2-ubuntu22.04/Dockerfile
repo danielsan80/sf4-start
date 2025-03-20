@@ -44,6 +44,7 @@ RUN apt-get update && apt-get install -y \
     php8.2-bcmath \
     php8.2-xdebug \
     php8.2-curl \
+    php8.2-amqp \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # creiamo la directory in cui fpm mette il suo pid (?)
