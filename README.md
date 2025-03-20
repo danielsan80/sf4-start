@@ -50,7 +50,7 @@ ed entrarci con
 ./dc enter
 ```
 
-> ATTENZIONE: Lo script `dc` copia il contenuto della cartalla `.ssh` dell'utente corrente nel container in modo che da dentro
+> ATTENZIONE: Lo script `dc` copia il contenuto della cartella `.ssh` dell'utente corrente nel container in modo che da dentro
 al container ci si possa connettere via ssh con i server di stage e produzione identificandosi con le proprie chiavi.
 Questo potrebbe non essere gradito se non se ne comprende le ragioni.
 
@@ -63,7 +63,7 @@ cd ..
 bin/create-project.sh
 ```
 
-Symfony ci da da i consueti suggerimente so cosa fare successivamente.
+Symfony ci da i consueti suggerimenti so cosa fare successivamente.
 
 Entriamo nella cartella `backend` e proviamo ad eseguire `sf`, un alias di `bin/console`
 definito in questo container
