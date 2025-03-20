@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 
+
+if [ ! -e .env ]; then
+    cp .env.dist .env
+fi
+
 docker-compose up "$@"
